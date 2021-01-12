@@ -9,11 +9,31 @@
 	color: #CC00AA;
 }
 
+h1, h4 {
+     color: pink;
+     text-align: center;
+}
+
+h1 {
+     font-size: 5rem;
+     margin: 5px;
+}
+h4 {
+     font-size: 3rem;
+     margin: 5px;
+}
+
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
      border: 1px dotted gray;
      padding: 20px;
+     text-align: center;
+}
+
+p {
+     margin-left: 350px;
+     margin-right: 350px;
 }
 
 .jumbotron {
